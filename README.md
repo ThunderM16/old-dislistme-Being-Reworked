@@ -1,4 +1,6 @@
 # I've Moved To A New Project https://DisList.Me still bring you too it 0w0
+or goto 
+# app.chatnet.me bots api voice channels and more 0w0
 
 # dislist.me
 The Official DisList.Me Script Fixed Issues That Vcodes + Disbots Will Not.
