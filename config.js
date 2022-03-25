@@ -1,19 +1,19 @@
 module.exports = {
   bot: {
-    token: "OTU3MDAxNjA0MTY5NjA1MTQw.Yj4bMg.q29MzyZpz50o2k6gbGLrZRZ2kvY",
+    token: "OTMwMjg4MTExMjE1MzIxMTE4.YdzsUQ.eAkmqtzyNc8ewEmb0M90TDY1ZAI",
     prefix: "bl.",
     owners: ["676195747904880690"],
     mongourl: "mongodb+srv://iut3890g:6BclYy2yHqvs3hKQ@cluster0.sbr9d.mongodb.net/dislist?retryWrites=true&w=majority",
     servers: {
-      token: "OTU3MDAxNjA0MTY5NjA1MTQw.Yj4bMg.q29MzyZpz50o2k6gbGLrZRZ2kvY",
+      token: "OTU3MDAxNjA0MTY5NjA1MTQw.Yj4bMg.GAMLJj95liNwJeK_XCygk5vdGLk",
       prefix: "me."
     }
   },
 
   website: {
     callback: "https://dislistme.herokuapp.com/callback",
-    secret: "lLyw_ONSYFZIJBaX1mB1yWLhJbKFhwNZ",
-    clientID: "930288111215321118", // Bot client id.
+    secret: "Yy-MDOVJVN1PrQFCDOgFVVpead3tP99y",
+    clientID: "957001604169605140", // Bot client id.
     tags: ["Moderation", "Fun", "Minecraft", "Economy", "Guard", "NSFW", "Anime", "Invite", "Music", "Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"],
     reporttags: ["Choose one...","NSFW content","API abuse","Malicious use of bot page","Copycat","Doesn't work","Other"],
     languages: [
@@ -132,8 +132,8 @@ module.exports = {
 
   server: {
     id: "956995281877090384", // Server ID
-    invite: "https://discord.gg/fMd86N35E5",
-    dblinvite: "https://discord.com/oauth2/authorize?client_id=930288111215321118&permissions=1074071617&redirect_uri=https://dislistme.herokuapp.com%2Fservers%2Fadd&response_type=code&scope=bot%20identify",
+    invite: "https://discord.gg/sqnssyBVft",
+    dblinvite: "https://discord.com/oauth2/authorize?client_id=957001604169605140&permissions=1074071617&redirect_uri=https://dislistme.herokuapp.com%2Fservers%2Fadd&response_type=code&scope=bot%20identify",
     roles: {
       yonetici: "", // Founder roleid (Founder)
       manager: "",// Community Manager Role Id (Mods)
