@@ -674,7 +674,6 @@ app.get("/admin/promote/give/:botID", checkMaintence, checkAdmin, checkAuth, asy
 });
 app.get("/admin/team", checkMaintence, checkAdmin, checkAuth, async (req, res) => {
   if (!config.bot.owners.includes(req.user.id)) return res.redirect('../admin');
-  const Database = require("void.db");
   renderTemplate(res, req, "/admin/administrator/team.ejs", {
     req,
     roles,
@@ -683,7 +682,6 @@ app.get("/admin/team", checkMaintence, checkAdmin, checkAuth, async (req, res) =
   })
 });
 app.get("/team", checkMaintence, (req, res) => {
-  const Database = require("void.db");
   renderTemplate(res, req, "team.ejs", {
     roles,
     config,
