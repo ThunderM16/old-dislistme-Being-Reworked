@@ -1,6 +1,5 @@
 <%- include('./meta.ejs') %>
 <head>
-	<script data-host="https://ana.dislist.me" data-dnt="false" src="https://ana.dislist.me/js/script.js" id="ZwSg9rf6GA" async defer></script>
 <script>
     document.onmousedown=disableclick;
 status="Stop trying to steal code";
@@ -133,7 +132,7 @@ function disableclick(event)
             <a class="dropdown-item" onclick="location.href='/rewards'"><i class="fad fa-coin mr-1"></i>&nbsp;Rewards</a>
             <a class="dropdown-item" onclick="location.href='/promotion'"><i class="fad fa-stars"></i> Promotions</a>
             <a class="dropdown-item" onclick="location.href='certification'"><i class="fad fa-badge-check"></i>&nbsp;Certification</a>
-            <a class="dropdown-item" onclick="location.href='https://stats.uptimerobot.com/AAqrmi9wzW'"><i class="fad fa-chart-bar mr-1"></i>&nbsp;Status</a>
+            <a class="dropdown-item" onclick="location.href='/news'"><i class="fad fa-chart-bar mr-1"></i>&nbsp;Status</a>
             <a class="dropdown-item" onclick="location.href='/codes/categories'"><i class="fad fa-code"></i>&nbsp;Code Share</a>
             <a class="dropdown-item"  onclick="location.href='/uptime/links'"><i class="fad fa-sync-alt"></i>&nbsp;Uptime</a>
 				</div>
@@ -169,9 +168,6 @@ function disableclick(event)
 <a class="dropdown-item" onclick='location.href = "/user/<%= user.id %>"'><i class="fad fa-user"></i>&nbsp;Profile</a>
 <a class="dropdown-item" onclick="nav-link" href="/addbot"><i class="fad fa-plus mr-1"></i> Add Bot</a>
 <a class="dropdown-item" onclick="location.href = "href="https://www.dislist.me/user/<%= user.id %>/edit"><i class="fad fa-edit mr-1"></i>Edit Profile</a>
-
-<a class="dropdown-item"  onclick="location.href='https://ana.dislist.me'"><i class="fas fa-analytics"></i>&nbsp;Analytics<br>by DisList.Me</a>
-<a class="dropdown-item"  onclick="location.href='https://YagClone.Tk'"><i class="fal fa-portal-exit"></i>&nbsp;YagClone.Tk</a>
 	
 <% if(user) { %>
                 <% 
