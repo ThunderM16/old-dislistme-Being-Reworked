@@ -9,7 +9,7 @@ module.exports.run = async (client,message,args) => {
    .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
    .setDescription(`**Total ${bots.length || "0"} bots in queue.**`)
    .setColor("#7289da")
-   .addField("Bots in queue", `${!bots ? "" : bots.map(a => "<@"+a.botID+"> \`("+a.botID+")\` Owner: <@"+a.ownerID+"> | [[Invite Bot]](https://discord.com/api/oauth2/authorize?client_id="+a.botID+"&permissions=0&scope=bot&guild_id=891125044670005260)").join("\n") || "there is no bots in queue"}`, true)
+   .addField("Bots in queue", `${!bots ? "" : bots.map(a => "<@"+a.botID+"> \`("+a.botID+")\` Owner: <@"+a.ownerID+"> | [[Invite Bot]](https://discord.com/api/oauth2/authorize?client_id="+a.botID+"&permissions=0&scope=bot&guild_id=955968674446078008)").join("\n") || "there is no bots in queue"}`, true)
    message.channel.send(embed)
 };
 exports.conf = {
