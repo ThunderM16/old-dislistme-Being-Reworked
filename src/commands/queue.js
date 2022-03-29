@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const vcodes = require("vcodes.js");
 const botdata = require("../database/models/botlist/bots.js")
 module.exports.run = async (client,message,args) => {
-   if (!message.member.roles.cache.some((role) => role.name === '[Verifiers]')) return message.channel.send("Ah, I think you are not a bot [Verifier] sorry!");
+   if (!message.member.roles.cache.some((role) => role.name === '✅Bot Tester')) return message.channel.send("Ah, I think you are not a bot ✅Bot Tester sorry!");
    let x = await botdata.find();
    let bots = x.filter(x => x.status === "UnApproved")
    const embed = new Discord.MessageEmbed()
