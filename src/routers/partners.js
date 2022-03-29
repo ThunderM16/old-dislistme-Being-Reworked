@@ -1,5 +1,6 @@
 const app = require('express').Router();
 const path = require("path")
+const Database = require("void.db");
 const db = new Database(path.join(__dirname, '../database/json/partners.json'));
 
 console.log("[dislist.me]: Partners router loaded.");
