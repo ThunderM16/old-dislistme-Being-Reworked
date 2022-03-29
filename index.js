@@ -24,7 +24,7 @@ client.on('presenceUpdate', async(oldPresence, newPresence) =>
         return
       }
 
-    if(newPresence.guild.id == "891125044670005260")
+    if(newPresence.guild.id == "955968674446078008")
     {
      if(botdata.status == "UnApproved")
 
